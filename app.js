@@ -136,6 +136,7 @@ function renderIngredientsBoard() {
   if (state.Patty) {
     patty.style.display = "inherit";
     pattydisplay.style.display = "inherit";
+    // inorder to remove and display items in ingredients board
   } else {
     patty.style.display = "none";
     pattydisplay.style.display = "none";
