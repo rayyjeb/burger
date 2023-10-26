@@ -135,10 +135,10 @@ function renderIngredientsBoard() {
   let pattydisplay = document.getElementById("pattydisplay")
   if (state.Patty) {
     patty.style.display = "inherit";
-    
+    pattydisplay.style.display = "inherit";
   } else {
     patty.style.display = "none";
-    
+    pattydisplay.style.display = "none";
   }
 
   let cheese = document.querySelector("#cheese");
